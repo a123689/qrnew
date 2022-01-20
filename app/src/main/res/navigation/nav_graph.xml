@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.dmobileapps.barcodescanner.feature.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_barcodeHistoryFragment"
+            app:destination="@id/barcodeHistoryFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_createBarcodeFragment"
+            app:destination="@id/createBarcodeFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_scanBarcodeFromCameraFragment"
+            app:destination="@id/scanBarcodeFromCameraFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_exitFragment"
+            app:destination="@id/exitFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/barcodeHistoryFragment"
+        android:name="com.dmobileapps.barcodescanner.feature.tabs.history.BarcodeHistoryFragment"
+        android:label="BarcodeHistoryFragment" />
+    <fragment
+        android:id="@+id/createBarcodeFragment"
+        android:name="com.dmobileapps.barcodescanner.feature.tabs.create.CreateBarcodeFragment"
+        android:label="CreateBarcodeFragment" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.dmobileapps.barcodescanner.feature.tabs.settings.SettingsFragment"
+        android:label="SettingsFragment" />
+    <fragment
+        android:id="@+id/scanBarcodeFromCameraFragment"
+        android:name="com.dmobileapps.barcodescanner.feature.tabs.scan.ScanBarcodeFromCameraFragment"
+        android:label="ScanBarcodeFromCameraFragment" />
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.dmobileapps.barcodescanner.feature.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/exitFragment"
+        android:name="com.dmobileapps.barcodescanner.feature.ExitFragment"
+        android:label="fragment_exit"
+        tools:layout="@layout/fragment_exit" />
+</navigation>

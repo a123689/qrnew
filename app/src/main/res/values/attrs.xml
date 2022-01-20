@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="text" format="string" />
+    <attr name="hint" format="string" />
+    <attr name="isArrowVisible" format="boolean" />
+    <attr name="isDelimiterVisible" format="boolean" />
+    <attr name="icon" format="reference" />
+    <attr name="iconBackground" format="color" />
+
+    <declare-styleable name="ResultPointsView">
+        <attr name="resultPointColor" format="color" />
+        <attr name="resultPointSize" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="IconButton">
+        <attr name="icon" />
+        <attr name="iconBackground" />
+        <attr name="text" />
+    </declare-styleable>
+
+    <declare-styleable name="IconButtonWithDelimiter">
+        <attr name="icon" />
+        <attr name="iconBackground" />
+        <attr name="text" />
+        <attr name="isDelimiterVisible" />
+        <attr name="isArrowVisible" />
+    </declare-styleable>
+
+    <declare-styleable name="SettingsButton">
+        <attr name="text" />
+        <attr name="hint" />
+        <attr name="isSwitchVisible" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="SettingsRadioButton">
+        <attr name="text" />
+        <attr name="isDelimiterVisible" />
+    </declare-styleable>
+
+    <declare-styleable name="DateTimePickerButton">
+        <attr name="hint" />
+    </declare-styleable>
+
+
+    <declare-styleable name="text_style">
+        <attr name="textColorDefault" format="boolean" />
+        <!--        <attr name="test_2" format="enum">-->
+        <!--            <enum name="left" value="0"/>-->
+        <!--            <enum name="right" value="1"/>-->
+        <!--        </attr>-->
+    </declare-styleable>
+
+    <attr name="animation_duration" format="integer" />
+
+    <attr name="borderAlpha" format="integer" />
+    <attr name="borderColor" format="color" />
+    <attr name="borderWidth" format="dimension" />
+    <attr name="borderlessButtonStyle" format="reference" />
+
+    <attr name="bringToFrontCurrentSticker" format="boolean" />
+
+    <attr name="cs_colors" format="reference" />
+    <attr name="cs_from_color" format="color" />
+    <attr name="cs_hex_colors" format="reference" />
+    <attr name="cs_steps" format="integer" />
+    <attr name="cs_to_color" format="color" />
+
+    <attr name="frame" format="reference" />
+
+    <attr name="handle_bar_color" format="color" />
+
+    <attr name="image" format="reference" />
+
+    <attr name="item_width" format="integer" />
+
+    <attr name="line_color" format="color" />
+    <attr name="line_size" format="integer" />
+
+    <attr name="mask" format="reference" />
+
+    <attr name="need_draw_line" format="boolean" />
+    <attr name="need_draw_outer_line" format="boolean" />
+
+    <attr name="piece_padding" format="dimension" />
+
+    <attr name="radian" format="float" />
+
+    <attr name="rtl_scrollEnabled" format="boolean" />
+    <attr name="rtl_tabBackground" format="reference" />
+    <attr name="rtl_tabIndicatorColor" format="color" />
+    <attr name="rtl_tabIndicatorHeight" format="dimension" />
+    <attr name="rtl_tabMaxWidth" format="dimension" />
+    <attr name="rtl_tabMinWidth" format="dimension" />
+    <attr name="rtl_tabOnScreenLimit" format="integer" />
+    <attr name="rtl_tabPadding" format="dimension" />
+    <attr name="rtl_tabPaddingBottom" format="dimension" />
+    <attr name="rtl_tabPaddingEnd" format="dimension" />
+    <attr name="rtl_tabPaddingStart" format="dimension" />
+    <attr name="rtl_tabPaddingTop" format="dimension" />
+    <attr name="rtl_tabSelectedTextColor" format="color" />
+    <attr name="rtl_tabTextAppearance" format="reference" />
+
+    <attr name="selected_line_color" format="color" />
+
+    <attr name="showBorder" format="boolean" />
+
+    <attr name="showIcons" format="boolean" />
+</resources>

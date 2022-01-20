@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Quét QR &amp; Barcode</string>
+
+
+    <string name="shortcut_scan_from_camera">Quét</string>
+    <string name="shortcut_scan_from_file">Quét hình ảnh</string>
+    <string name="shortcut_create_barcode">Tạo mã vạch</string>
+    <string name="shortcut_history">Lịch sử</string>
+
+
+    <string name="intent_filter_create_qr_code_text">Tạo mã QR</string>
+    <string name="intent_filter_scan_image">Quét hình ảnh</string>
+
+
+    <string name="error_dialog_title">Lỗi</string>
+    <string name="error_dialog_default_message">Đã xảy ra sự cố</string>
+    <string name="error_dialog_positive_button_text">VÂNG</string>
+
+
+    <string name="dialog_delete_positive_button">Xóa bỏ</string>
+    <string name="dialog_delete_negative_button">Hủy bỏ</string>
+    <string name="dialog_delete_clear_history_message">Xóa lịch sử?</string>
+    <string name="dialog_delete_barcode_message">Xóa bỏ?</string>
+
+
+    <string name="dialog_confirm_barcode_title">Xác nhận</string>
+    <string name="dialog_confirm_barcode_positive_button">VÂNG</string>
+    <string name="dialog_confirm_barcode_negative_button">Hủy bỏ</string>
+
+
+    <string name="dialog_edit_barcode_name_title">Chỉnh sửa tên</string>
+    <string name="dialog_edit_barcode_name_positive_button">VÂNG</string>
+    <string name="dialog_edit_barcode_name_negative_button">Hủy bỏ</string>
+
+
+    <string name="activity_bottom_tabs_scan_tab">Quét</string>
+    <string name="activity_bottom_tabs_create_tab">Tạo ra</string>
+    <string name="activity_bottom_tabs_history_tab">Lịch sử</string>
+    <string name="activity_bottom_tabs_settings_tab">Cài đặt</string>
+
+
+    <string name="fragment_scan_barcode_from_camera_scan_from_file">Quét hình ảnh</string>
+    <string name="fragment_scan_barcode_from_camera_flash">Flash</string>
+    <string name="fragment_scan_barcode_from_camera_barcode_saved">Đã lưu</string>
+
+
+    <string name="activity_scan_barcode_from_file_title">Quét</string>
+    <string name="activity_scan_barcode_from_file_scan">VÂNG</string>
+    <string name="activity_scan_barcode_from_file_rotate_left">Xoay trái</string>
+    <string name="activity_scan_barcode_from_file_rotate_right">Xoay phải</string>
+    <string name="activity_scan_barcode_from_file_change_image">Chọn một hình ảnh khác</string>
+
+
+    <string name="fragment_create_barcode_title">Tạo Mới</string>
+    <string name="fragment_create_barcode_qr_code">mã QR</string>
+    <string name="fragment_create_barcode_qr_code_clipboard">Nội dung từ khay nhớ tạm</string>
+    <string name="fragment_create_barcode_qr_code_text">Chữ</string>
+    <string name="fragment_create_barcode_qr_code_show_all">Thêm mã QR</string>
+    <string name="fragment_create_barcode">Mã vạch</string>
+    <string name="fragment_create_barcode_show_all">Mã vạch và các mã 2D khác</string>
+
+
+    <string name="fragment_create_qr_code_list_title">Tạo mã QR</string>
+
+
+    <string name="fragment_create_barcode_list_title">Tạo mã vạch</string>
+    <string name="fragment_create_barcode_list_2d">Mã vạch 2D</string>
+    <string name="fragment_create_barcode_list_1d">Mã vạch 1D</string>
+
+
+    <string name="activity_create_barcode_menu_item_title">Tạo ra</string>
+    <string name="activity_create_barcode_contacts_menu_item_title">Liên lạc</string>
+
+
+    <string name="fragment_create_barcode_alternative">Ngoài ra:</string>
+
+
+    <string name="fragment_create_qr_code_url_alternative">- Mở ứng dụng trình duyệt của bạn \n- Tải trang web \n- Nhấp vào \"Chia sẻ \" từ menu \n- Chọn ứng dụng này</string>
+
+
+    <string name="fragment_create_qr_code_bookmark_title_hint">Tiêu đề</string>
+
+
+    <string name="fragment_create_qr_code_wifi_encryption_hint">Mã hóa</string>
+    <string-array name="fragment_create_qr_code_wifi_encryption_types">
+        <item>WPA /WPA2</item>
+        <item>WEP</item>
+        <item>Không có</item>
+    </string-array>
+    <string name="fragment_create_qr_code_wifi_network_name_hint">Tên mạng</string>
+    <string name="fragment_create_qr_code_wifi_password_hint">Mật khẩu</string>
+    <string name="fragment_create_qr_code_wifi_is_hidden_hint">Ẩn giấu</string>
+
+
+    <string name="fragment_create_qr_code_email_subject_hint">Chủ thể</string>
+    <string name="fragment_create_qr_code_email_message_hint">Thông điệp</string>
+
+
+    <string name="fragment_create_qr_code_sms_message_hint">Thông điệp</string>
+
+
+    <string name="fragment_create_qr_code_mms_subject_hint">Chủ thể</string>
+    <string name="fragment_create_qr_code_mms_message_hint">Thông điệp</string>
+
+
+    <string name="fragment_create_qr_code_cryptocurrency_type_hint">Tiền điện tử</string>
+    <string-array name="fragment_create_qr_code_cryptocurrencies">
+        <item>Bitcoin</item>
+        <item>Bitcoin Cash</item>
+        <item>Ethereum</item>
+        <item>Litecoin</item>
+        <item>Dấu gạch ngang</item>
+    </string-array>
+    <string name="fragment_create_qr_code_cryptocurrency_address_hint">Địa chỉ người nhận</string>
+    <string name="fragment_create_qr_code_cryptocurrency_amount_hint">Số lượng</string>
+    <string name="fragment_create_qr_code_cryptocurrency_label_hint">Nhãn mác</string>
+    <string name="fragment_create_qr_code_cryptocurrency_message_hint">Thông điệp</string>
+
+
+    <string name="fragment_create_qr_code_location_latitude_hint">Vĩ độ</string>
+    <string name="fragment_create_qr_code_location_longitude_hint">Kinh độ</string>
+    <string name="fragment_create_qr_code_location_altitude_hint">Độ cao (tùy chọn)</string>
+
+
+    <string name="fragment_create_qr_code_otp_type_hint">Kiểu</string>
+    <string-array name="fragment_create_qr_code_otp_types">
+        <item>NÓNG P</item>
+        <item>TOTP</item>
+    </string-array>
+    <string name="fragment_create_qr_code_otp_algorithm_hint">Thuật toán</string>
+    <string-array name="fragment_create_qr_code_otp_algorithms">
+        <item>SHA1</item>
+        <item>SHA256</item>
+        <item>SHA512</item>
+    </string-array>
+    <string name="fragment_create_qr_code_otp_issuer_hint">Người phát hành</string>
+    <string name="fragment_create_qr_code_otp_account_hint">Tài khoản</string>
+    <string name="fragment_create_qr_code_otp_digits_hint">Chữ số</string>
+    <string name="fragment_create_qr_code_otp_period_hint">Khoảng thời gian</string>
+    <string name="fragment_create_qr_code_otp_counter_hint">Quầy tính tiền</string>
+    <string name="fragment_create_qr_code_otp_secret_hint">Bí mật</string>
+    <string name="fragment_create_qr_code_otp_generate_random_secret">Bí mật ngẫu nhiên</string>
+
+
+    <string name="fragment_create_qr_code_event_title_hint">Tiêu đề</string>
+    <string name="fragment_create_qr_code_event_organizer_hint">Người tổ chức</string>
+    <string name="fragment_create_qr_code_event_summary_hint">Tóm lược</string>
+    <string name="fragment_create_qr_code_event_start_date_hint">Ngày bắt đầu</string>
+    <string name="fragment_create_qr_code_event_end_date_hint">Ngày cuối</string>
+
+
+    <string name="fragment_create_qr_code_contact_first_name_hint">Tên đầu tiên</string>
+    <string name="fragment_create_qr_code_contact_last_name_hint">Họ</string>
+    <string name="fragment_create_qr_code_contact_organization_hint">Tổ chức</string>
+    <string name="fragment_create_qr_code_contact_job_hint">Công việc</string>
+    <string name="fragment_create_qr_code_contact_email_hint">E-mail</string>
+    <string name="fragment_create_qr_code_contact_phone_hint">Điện thoại</string>
+    <string name="fragment_create_qr_code_contact_fax_hint">Số fax</string>
+    <string name="fragment_create_qr_code_contact_country_hint">Quốc gia</string>
+    <string name="fragment_create_qr_code_contact_region_hint">Vùng /Tiểu bang</string>
+    <string name="fragment_create_qr_code_contact_postcode_hint">Mã bưu điện</string>
+    <string name="fragment_create_qr_code_contact_city_hint">Thành phố</string>
+    <string name="fragment_create_qr_code_contact_street_hint">đường phố</string>
+    <string name="fragment_create_qr_code_contact_website_hint">Trang mạng</string>
+    <string name="fragment_create_qr_code_contact_alternative">- Mở ứng dụng danh bạ của bạn \n- Mở một liên hệ hiện có hoặc tạo một liên hệ mới \n- Nhấp vào \"Chia sẻ \" từ menu \n- Chọn ứng dụng này</string>
+
+
+    <string name="fragment_create_data_matrix_hint">Văn bản không có ký tự đặc biệt</string>
+    <string name="fragment_create_aztec_hint">Văn bản không có ký tự đặc biệt</string>
+    <string name="fragment_create_codabar_hint">Chữ số</string>
+    <string name="fragment_create_code_39_hint">Văn bản viết hoa không có ký tự đặc biệt</string>
+    <string name="fragment_create_code_93_hint">Văn bản viết hoa không có ký tự đặc biệt</string>
+    <string name="fragment_create_code_128_hint">Văn bản không có ký tự đặc biệt</string>
+    <string name="fragment_create_ean_8_hint">7 chữ số</string>
+    <string name="fragment_create_ean_13_hint">12 chữ số</string>
+    <string name="fragment_create_itf_14_hint">Số chữ số chẵn</string>
+    <string name="fragment_create_upc_a_hint">11 chữ số</string>
+    <string name="fragment_create_upc_e_hint">7 chữ số</string>
+
+
+    <string name="fragment_barcode_history_title">Lịch sử</string>
+    <string-array name="fragment_barcode_history_tab_titles">
+        <item>Tất cả các</item>
+        <item>Yêu thích</item>
+    </string-array>
+    <string name="fragment_barcode_history_menu_title_export">Lịch sử xuất</string>
+    <string name="fragment_barcode_history_menu_title_delete_all">Xóa lịch sử</string>
+
+
+    <string name="activity_export_history_title">Lịch sử xuất </string>
+    <string name="activity_export_history_as_hint">Xuất khẩu như</string>
+    <string-array name="activity_export_history_types">
+        <item>CSV</item>
+        <item>JSON</item>
+    </string-array>
+    <string name="activity_export_history_file_name_hint">Tên tệp</string>
+    <string name="activity_export_history_file_name_default" translatable="false">db</string>
+    <string name="activity_export_history_export">Xuất </string>
+    <string name="activity_export_history_exported">Đã lưu vào Tải xuống</string>
+
+
+    <string name="fragment_settings_title">Cài đặt</string>
+    <string name="fragment_settings_appearance_settings">Ngoại hình</string>
+    <string name="fragment_settings_theme">Chủ đề</string>
+    <string name="fragment_settings_inverse_barcode_colors_in_dark_theme">Màu mã nghịch đảo trong chủ đề tối</string>
+    <string name="fragment_settings_inverse_barcode_colors_in_dark_theme_hint">Hiển thị mã có nội dung màu trắng trên nền tối</string>
+    <string name="fragment_settings_scanner_settings">Máy quét</string>
+    <string name="fragment_settings_open_content_automatically">Tự động mở nội dung của mã đã quét</string>
+    <string name="fragment_settings_open_content_automatically_hint">Có thể mở nội dung có hại</string>
+    <string name="fragment_settings_copy_to_clipboard">Sao chép vào clipboard</string>
+    <string name="fragment_settings_copy_to_clipboard_hint">Sao chép mã vạch đã quét vào khay nhớ tạm</string>
+    <string name="fragment_settings_simple_auto_focus">Chế độ lấy nét tự động đơn giản</string>
+    <string name="fragment_settings_simple_auto_focus_hint">Chỉ bật nếu bạn gặp sự cố khi lấy nét</string>
+    <string name="fragment_settings_flash">Tốc biến</string>
+    <string name="fragment_settings_flash_hint">Bật flash khi bắt đầu</string>
+    <string name="fragment_settings_vibrate">Rung</string>
+    <string name="fragment_settings_vibrate_hint">Rung khi quét</string>
+    <string name="fragment_settings_continuous_scanning">Quét liên tục</string>
+    <string name="fragment_settings_continuous_scanning_hint">Chỉ lưu bản quét vào lịch sử</string>
+    <string name="fragment_settings_confirm_scans_manually">Xác nhận quét theo cách thủ công</string>
+    <string name="fragment_settings_confirm_scans_manually_hint">Tránh tình cờ quét</string>
+    <string name="fragment_settings_camera">Máy ảnh</string>
+    <string name="fragment_settings_supported_formats">Các định dạng được hỗ trợ</string>
+    <string name="fragment_settings_history_settings">Lịch sử</string>
+    <string name="fragment_settings_save_scanned_barcodes_to_history">Lưu mã vạch đã quét vào lịch sử</string>
+    <string name="fragment_settings_save_created_barcodes_to_history">Lưu mã vạch đã tạo vào lịch sử</string>
+    <string name="fragment_settings_do_not_save_duplicates">Không lưu các bản sao</string>
+    <string name="fragment_settings_do_not_save_duplicates_hint">Tránh trùng lặp trong lịch sử</string>
+    <string name="fragment_settings_clear_history">Xóa lịch sử</string>
+    <string name="fragment_settings_advanced_settings">Nâng cao</string>
+    <string name="fragment_settings_choose_search_engines">Công cụ tìm kiếm</string>
+    <string name="fragment_settings_choose_search_engines_hint">Chọn một công cụ tìm kiếm cho các tìm kiếm trên web</string>
+    <string name="fragment_settings_error_reports">Báo cáo lỗi</string>
+    <string name="fragment_settings_enable_error_reports">Bật báo cáo lỗi</string>
+    <string name="fragment_settings_enable_error_reports_hint">Giúp chúng tôi sửa lỗi</string>
+    <string name="fragment_settings_about">Về</string>
+    <string name="fragment_settings_check_updates">Kiểm tra cập nhật</string>
+    <string name="fragment_settings_permissions">Quyền</string>
+    <string name="fragment_settings_source_code">Mã nguồn</string>
+    <string name="fragment_settings_app_version">Phiên bản ứng dụng</string>
+
+
+    <string name="activity_choose_theme_title">Chủ đề</string>
+    <string name="activity_choose_theme_system">Giống như hệ thống</string>
+    <string name="activity_choose_theme_light">Sáng</string>
+    <string name="activity_choose_theme_dark">Tối</string>
+
+
+    <string name="activity_choose_camera_title">Máy ảnh</string>
+    <string name="activity_choose_camera_front">Đằng trước</string>
+    <string name="activity_choose_camera_back">Mặt sau</string>
+
+
+    <string name="activity_supported_formats_title">Các định dạng được hỗ trợ</string>
+
+
+    <string name="activity_choose_search_engine_title">Công cụ tìm kiếm</string>
+    <string name="activity_choose_search_engine_none">Không có</string>
+    <string name="activity_choose_search_engine_ask_every_time">Hỏi mọi lúc</string>
+    <string name="activity_choose_search_engine_bing">Bing</string>
+    <string name="activity_choose_search_engine_duck_duck_go">DuckDuckGo</string>
+    <string name="activity_choose_search_engine_google">Google</string>
+    <string name="activity_choose_search_engine_qwant">Qwant</string>
+    <string name="activity_choose_search_engine_yahoo">Yahoo</string>
+    <string name="activity_choose_search_engine_yandex">Yandex</string>
+
+
+    <string name="activity_all_permissions_title">Quyền</string>
+    <string name="activity_all_permissions_normal_permissions">Bình thường</string>
+    <string name="activity_all_permissions_vibrate_title">Rung</string>
+    <string name="activity_all_permissions_vibrate_hint">Được sử dụng để rung khi quét</string>
+    <string name="activity_all_permissions_wifi_title">Wifi</string>
+    <string name="activity_all_permissions_wifi_hint">Được sử dụng để kết nối với Wi-Fi bằng cách quét mã QR</string>
+    <string name="activity_all_permissions_internet_title">Internet</string>
+    <string name="activity_all_permissions_internet_hint">Được sử dụng để gửi báo cáo lỗi. Điều này có thể được tắt trong cài đặt.</string>
+    <string name="activity_all_permissions_runtime_permissions">Thời gian chạy</string>
+    <string name="activity_all_permissions_camera_title">Máy ảnh</string>
+    <string name="activity_all_permissions_camera_hint">Được sử dụng để quét mã QR và mã vạch từ máy ảnh</string>
+    <string name="activity_all_permissions_read_contacts_title">Đọc danh bạ</string>
+    <string name="activity_all_permissions_read_contacts_hint">Được sử dụng để tạo mã QR bằng cách chọn một liên hệ từ danh sách liên hệ của bạn</string>
+    <string name="activity_all_permissions_storage_title">Kho</string>
+    <string name="activity_all_permissions_storage_hint">Được sử dụng để truy cập bộ nhớ khi bạn muốn lưu mã QR hoặc mã vạch của mình dưới dạng văn bản hoặc hình ảnh</string>
+
+
+    <string name="activity_barcode_search_on_rate_and_goods">Tìm kiếm trên Xếp hạng</string>
+    <string name="activity_barcode_search_on_amazon">Tìm kiếm trên Amazon</string>
+    <string name="activity_barcode_search_on_ebay">Tìm kiếm trên eBay</string>
+    <string name="activity_barcode_add_to_calendar">Thêm vào lịch</string>
+    <string name="activity_barcode_add_to_contacts">Thêm vào liên lạc</string>
+    <string name="activity_barcode_call_phone">Gọi %s</string>
+    <string name="activity_barcode_send_sms">Gửi SMS /MMS tới %s</string>
+    <string name="activity_barcode_send_email">Gửi email tới %s</string>
+    <string name="activity_barcode_show_location">Hiển thị vị trí</string>
+    <string name="activity_barcode_connect_to_wifi">Kết nối với Wi-Fi</string>
+    <string name="activity_barcode_open_wifi_settings">Mở cài đặt Wi-Fi</string>
+    <string name="activity_barcode_copy_network_name">Sao chép tên mạng</string>
+    <string name="activity_barcode_copy_network_password">Sao chép mật khẩu mạng</string>
+    <string name="activity_barcode_open_app">Mở chương trình</string>
+    <string name="activity_barcode_open_in_app_market">Mở cửa trên thị trường</string>
+    <string name="activity_barcode_open_in_youtube">Mở trong Youtube</string>
+    <string name="activity_barcode_save_bookmark">Lưu vào dấu trang</string>
+    <string name="activity_barcode_open_link">Mở liên kết</string>
+    <string name="activity_barcode_open_bitcoin_url">Mở trong ứng dụng khác</string>
+    <string name="activity_barcode_show_otp">Hiển thị mật khẩu</string>
+    <string name="activity_barcode_open_otp">Mở trong ứng dụng khác</string>
+    <string name="activity_barcode_share_as_text">Chia sẻ dưới dạng văn bản</string>
+    <string name="activity_barcode_copy">Sao chép vào clipboard</string>
+    <string name="activity_barcode_save_as_text">Lưu dưới dạng văn bản</string>
+    <string name="activity_barcode_search">Tìm kiếm trên web</string>
+    <string name="activity_barcode_add_to_favorites">Thêm vào mục yêu thích</string>
+    <string name="activity_barcode_show_barcode_image">Xem mã</string>
+    <string name="activity_barcode_share_as_image">Chia sẻ dưới dạng hình ảnh</string>
+    <string name="activity_barcode_save_as_image">Lưu dưới dạng hình ảnh</string>
+    <string name="activity_barcode_print">In</string>
+    <string name="activity_barcode_delete">Xóa bỏ</string>
+    <string name="activity_barcode_connecting_to_wifi">Đang kết nối…</string>
+    <string name="activity_barcode_copied">Sao chép vào clipboard</string>
+    <string name="activity_barcode_barcode_image_saved">Đã lưu vào Thư viện</string>
+    <string name="activity_barcode_barcode_text_saved">Đã lưu vào Tải xuống</string>
+    <string name="activity_barcode_no_app">Không tìm thấy ứng dụng nào cho hành động này</string>
+    <string name="activity_barcode_choose_search_engine_dialog_negative_button">Hủy bỏ</string>
+
+
+    <string name="activity_barcode_image_increase_brightness">Tăng độ sáng</string>
+    <string name="activity_barcode_image_decrease_brightness">Giảm độ sáng</string>
+
+
+    <string name="activity_barcode_otp_title">OTP</string>
+    <string name="activity_barcode_otp_unable_to_generate_otp">Không thể tạo mật khẩu</string>
+    <string name="activity_barcode_otp_counter">Bộ đếm: %s</string>
+    <string name="activity_barcode_otp_timer">%s: %s còn lại</string>
+    <string name="activity_barcode_otp_refresh_otp">Làm mới</string>
+
+
+    <string name="activity_save_barcode_as_text_title">Cứu</string>
+    <string name="activity_save_barcode_as_text_save_as_hint">Lưu thành</string>
+    <string-array name="activity_save_barcode_as_text_formats">
+        <item>CSV</item>
+        <item>JSON</item>
+    </string-array>
+    <string name="activity_save_barcode_as_text_file_name_save">Cứu</string>
+    <string name="activity_save_barcode_as_text_file_name_saved">Đã lưu và Tải xuống</string>
+
+
+    <string name="activity_save_barcode_as_image_title">Cứu</string>
+    <string name="activity_save_barcode_as_image_save_as_hint">Lưu thành</string>
+    <string-array name="activity_save_barcode_as_image_formats">
+        <item>PNG</item>
+        <item>SVG</item>
+    </string-array>
+    <string name="activity_save_barcode_as_image_file_name_save">Cứu</string>
+    <string name="activity_save_barcode_as_image_file_name_saved">Đã lưu vào Thư viện</string>
+
+
+    <string name="barcode_schema_bookmark">Dấu trang</string>
+    <string name="barcode_schema_cryptocurrency">Bitcoin</string>
+    <string name="barcode_schema_email">E-mail</string>
+    <string name="barcode_schema_geo">Vị trí</string>
+    <string name="barcode_schema_google_maps">Địa chỉ nhà</string>
+    <string name="barcode_schema_google_play">Ứng dụng</string>
+    <string name="barcode_schema_mms">MMS</string>
+    <string name="barcode_schema_me_card">Liên hệ (MeCard)</string>
+    <string name="barcode_schema_phone">Điện thoại</string>
+    <string name="barcode_schema_otp">OTP</string>
+    <string name="barcode_schema_sms">tin nhắn</string>
+    <string name="barcode_schema_url">URL</string>
+    <string name="barcode_schema_v_event">Biến cố</string>
+    <string name="barcode_schema_v_card">Liên hệ (VCard)</string>
+    <string name="barcode_schema_wifi">Wifi</string>
+    <string name="barcode_schema_youtube">URL Youtube</string>
+    <string name="barcode_schema_other">Chữ</string>
+
+
+    <string name="barcode_format_qr_code">Mã QR</string>
+    <string name="barcode_format_aztec" translatable="false">Aztec</string>
+    <string name="barcode_format_codabar" translatable="false">Codabar</string>
+    <string name="barcode_format_code_39" translatable="false">Code 39</string>
+    <string name="barcode_format_code_93" translatable="false">Code 93</string>
+    <string name="barcode_format_code_128" translatable="false">Code 128</string>
+    <string name="barcode_format_data_matrix" translatable="false">Data Matrix</string>
+    <string name="barcode_format_ean_8" translatable="false">EAN-8</string>
+    <string name="barcode_format_ean_13" translatable="false">EAN-13</string>
+    <string name="barcode_format_itf_14" translatable="false">ITF</string>
+    <string name="barcode_format_pdf_417" translatable="false">PDF417</string>
+    <string name="barcode_format_upc_a" translatable="false">UPC-A</string>
+    <string name="barcode_format_upc_e" translatable="false">UPC-E</string>
+
+    <!-- Generated by Automatic String Resource Translation -->
+    <!--          https://asrt.gluege.boerde.de             -->
+</resources>

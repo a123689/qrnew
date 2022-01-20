@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".feature.HomeFragment">
+
+    <View
+        android:id="@+id/viewActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintDimensionRatio="360:56"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/inter_extra_bold_800"
+        android:text="@string/app_name"
+        android:textColor="#01CFDC"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="@id/viewActionBar"
+        app:layout_constraintEnd_toStartOf="@id/ivSetting"
+        app:layout_constraintStart_toStartOf="@id/viewActionBar"
+        app:layout_constraintTop_toTopOf="@id/viewActionBar" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivSetting"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginEnd="8dp"
+        android:padding="6dp"
+        android:src="@drawable/ic_settings"
+        app:layout_constraintBottom_toBottomOf="@id/viewActionBar"
+        app:layout_constraintEnd_toEndOf="@id/viewActionBar"
+        app:layout_constraintTop_toTopOf="@id/viewActionBar" />
+
+    <FrameLayout
+        android:id="@+id/layoutAd"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="12dp"
+        android:visibility="visible"
+        android:layout_marginHorizontal="16dp"
+        app:layout_constraintDimensionRatio="328:236"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewActionBar"
+       >
+
+        <include layout="@layout/layout_ads_home_loading" />
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/ivBanner"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="invisible"
+        android:src="@drawable/banner_home"
+        app:layout_constraintDimensionRatio="328:236"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewActionBar" />
+
+    <RelativeLayout
+        android:id="@+id/btnScanCode"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_192sdp"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:background="@drawable/bg_radius_12"
+        android:backgroundTint="#88dde3"
+        android:gravity="center_vertical"
+        android:padding="@dimen/_12sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btnCreateCode"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ivBanner"
+        app:layout_constraintVertical_bias="0.1">
+
+
+        <ImageView
+            android:id="@+id/icEdit"
+            android:layout_width="@dimen/_64sdp"
+            android:layout_height="@dimen/_64sdp"
+            android:layout_centerHorizontal="true"
+            android:padding="@dimen/_6sdp"
+            app:srcCompat="@drawable/ic_scan_code_d" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/icEdit"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_6sdp"
+            android:gravity="center"
+            android:text="@string/scan_code"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14ssp"
+            app:textColorDefault="false" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/btnCreateCode"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_90sdp"
+        android:layout_marginHorizontal="@dimen/_12sdp"
+        android:background="@drawable/bg_radius_12"
+        android:backgroundTint="#fbcedc"
+        android:gravity="center_vertical"
+        android:padding="@dimen/_12sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnScanCode"
+        app:layout_constraintTop_toTopOf="@id/btnScanCode">
+
+        <ImageView
+            android:id="@+id/icCollage"
+            android:layout_width="@dimen/_36sdp"
+            android:layout_height="@dimen/_36sdp"
+            android:padding="@dimen/_6sdp"
+            app:srcCompat="@drawable/ic_create_code_d" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/icCollage"
+            android:text="@string/create_code"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14ssp"
+            app:textColorDefault="false"
+
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/btnHistory"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_90sdp"
+        android:layout_marginHorizontal="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:background="@drawable/bg_radius_12"
+        android:backgroundTint="#ffe08e"
+        android:gravity="center_vertical"
+        android:padding="@dimen/_12sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnScanCode"
+        app:layout_constraintTop_toBottomOf="@id/btnCreateCode">
+
+        <ImageView
+            android:id="@+id/icSaved"
+            android:layout_width="@dimen/_36sdp"
+            android:layout_height="@dimen/_36sdp"
+            android:padding="@dimen/_6sdp"
+            app:srcCompat="@drawable/ic_history_white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/icSaved"
+            android:fontFamily="@font/inter_semibold_600"
+            android:text="@string/activity_bottom_tabs_history_tab"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14ssp"
+            app:textColorDefault="false" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:fontFamily="@font/inter_semibold_600"
+        android:text="Our Application"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_14ssp"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@+id/btnCreateCode" />
+</androidx.constraintlayout.widget.ConstraintLayout>
